@@ -1,0 +1,160 @@
+[
+  {
+    "id": "TRF-782104",
+    "userId": "usr-demo-1",
+    "customer": {
+      "name": "Yuvraj Vikram Rathore",
+      "email": "vikram@royalfeast.com",
+      "phone": "+91 98450 12345"
+    },
+    "deliveryAddress": {
+      "address": "Villa 14, Royal Palm Meadows, Whitefield",
+      "landmark": "Opposite Prestige Grand Mall",
+      "city": "Bengaluru",
+      "pincode": "560066",
+      "instructions": "Leave at front guard desk. Ring bell."
+    },
+    "items": [
+      {
+        "id": "chk-1",
+        "name": "Chicken Biryani",
+        "price": 349,
+        "quantity": 2,
+        "selectedSides": [
+          { "name": "Garlic Naan", "price": 79, "quantity": 2 },
+          { "name": "Extra Rich Gravy", "price": 49, "quantity": 1 }
+        ],
+        "totalItemPrice": 905
+      },
+      {
+        "id": "chk-2",
+        "name": "Chicken 65",
+        "price": 289,
+        "quantity": 1,
+        "selectedSides": [],
+        "totalItemPrice": 289
+      }
+    ],
+    "subtotal": 1194,
+    "discount": 100,
+    "couponCode": "FEAST100",
+    "deliveryFee": 40,
+    "tax": 55,
+    "rewardPointsUsed": 0,
+    "totalAmount": 1189,
+    "paymentMethod": "UPI",
+    "paymentStatus": "Paid",
+    "status": "Out for Delivery",
+    "statusHistory": [
+      { "status": "Order Placed", "time": "2026-11-02T10:10:00.000Z" },
+      { "status": "Order Confirmed", "time": "2026-11-02T10:13:00.000Z" },
+      { "status": "Food Being Prepared", "time": "2026-11-02T10:20:00.000Z" },
+      { "status": "Ready for Dispatch", "time": "2026-11-02T10:40:00.000Z" },
+      { "status": "Out for Delivery", "time": "2026-11-02T10:48:00.000Z" }
+    ],
+    "estimatedDeliveryTime": "25-35 mins",
+    "createdAt": "2026-11-02T10:10:00.000Z"
+  },
+  {
+    "id": "TRF-781982",
+    "userId": "usr-demo-1",
+    "customer": {
+      "name": "Maharani Aishwarya Rao",
+      "email": "aishwarya@royalfeast.com",
+      "phone": "+91 99887 76655"
+    },
+    "deliveryAddress": {
+      "address": "402 Royal Horizon Towers, MG Road",
+      "landmark": "Near Taj Residency",
+      "city": "Bengaluru",
+      "pincode": "560001",
+      "instructions": "Call upon arrival"
+    },
+    "items": [
+      {
+        "id": "mut-1",
+        "name": "Mutton Biryani",
+        "price": 469,
+        "quantity": 1,
+        "selectedSides": [
+          { "name": "Butter Naan", "price": 69, "quantity": 2 }
+        ],
+        "totalItemPrice": 607
+      },
+      {
+        "id": "mut-2",
+        "name": "Mutton Rogan Josh",
+        "price": 449,
+        "quantity": 1,
+        "selectedSides": [],
+        "totalItemPrice": 449
+      }
+    ],
+    "subtotal": 1056,
+    "discount": 200,
+    "couponCode": "ROYAL20",
+    "deliveryFee": 40,
+    "tax": 45,
+    "rewardPointsUsed": 50,
+    "totalAmount": 891,
+    "paymentMethod": "Credit/Debit Card",
+    "paymentStatus": "Paid",
+    "status": "Delivered",
+    "statusHistory": [
+      { "status": "Order Placed", "time": "2026-11-01T19:00:00.000Z" },
+      { "status": "Order Confirmed", "time": "2026-11-01T19:05:00.000Z" },
+      { "status": "Food Being Prepared", "time": "2026-11-01T19:15:00.000Z" },
+      { "status": "Ready for Dispatch", "time": "2026-11-01T19:35:00.000Z" },
+      { "status": "Out for Delivery", "time": "2026-11-01T19:42:00.000Z" },
+      { "status": "Delivered", "time": "2026-11-01T20:05:00.000Z" }
+    ],
+    "estimatedDeliveryTime": "Delivered",
+    "createdAt": "2026-11-01T19:00:00.000Z"
+  },
+  {
+    "id": "TRF-780451",
+    "userId": "usr-demo-1",
+    "customer": {
+      "name": "Col. Rajeshwardas Sharma",
+      "email": "sharma@royalfeast.com",
+      "phone": "+91 91234 56789"
+    },
+    "deliveryAddress": {
+      "address": "B-88 Defense Colony, Koramangala",
+      "landmark": "Near Army Officers Mess",
+      "city": "Bengaluru",
+      "pincode": "560034",
+      "instructions": ""
+    },
+    "items": [
+      {
+        "id": "combo-4",
+        "name": "Family Royal Feast",
+        "price": 1499,
+        "quantity": 1,
+        "selectedSides": [],
+        "totalItemPrice": 1499
+      }
+    ],
+    "subtotal": 1499,
+    "discount": 350,
+    "couponCode": "FAMILY25",
+    "deliveryFee": 0,
+    "tax": 57,
+    "rewardPointsUsed": 0,
+    "totalAmount": 1206,
+    "paymentMethod": "Cash on Delivery",
+    "paymentStatus": "Paid",
+    "status": "Delivered",
+    "statusHistory": [
+      { "status": "Order Placed", "time": "2026-10-31T13:10:00.000Z" },
+      { "status": "Order Confirmed", "time": "2026-10-31T13:14:00.000Z" },
+      { "status": "Food Being Prepared", "time": "2026-10-31T13:25:00.000Z" },
+      { "status": "Ready for Dispatch", "time": "2026-10-31T13:45:00.000Z" },
+      { "status": "Out for Delivery", "time": "2026-10-31T13:52:00.000Z" },
+      { "status": "Delivered", "time": "2026-10-31T14:15:00.000Z" }
+    ],
+    "estimatedDeliveryTime": "Delivered",
+    "createdAt": "2026-10-31T13:10:00.000Z"
+  }
+]

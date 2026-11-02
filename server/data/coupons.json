@@ -1,0 +1,46 @@
+[
+  {
+    "id": "c1",
+    "code": "ROYAL20",
+    "discountType": "percentage",
+    "discountValue": 20,
+    "maxDiscount": 200,
+    "minOrder": 399,
+    "description": "20% OFF up to ₹200 on orders above ₹399",
+    "expiresAt": "2026-12-31",
+    "isActive": true
+  },
+  {
+    "id": "c2",
+    "code": "FEAST100",
+    "discountType": "flat",
+    "discountValue": 100,
+    "maxDiscount": 100,
+    "minOrder": 499,
+    "description": "FLAT ₹100 OFF on orders above ₹499",
+    "expiresAt": "2026-12-31",
+    "isActive": true
+  },
+  {
+    "id": "c3",
+    "code": "CHICKEN15",
+    "discountType": "percentage",
+    "discountValue": 15,
+    "maxDiscount": 150,
+    "minOrder": 349,
+    "description": "15% OFF on chicken orders above ₹349",
+    "expiresAt": "2026-12-31",
+    "isActive": true
+  },
+  {
+    "id": "c4",
+    "code": "FAMILY25",
+    "discountType": "percentage",
+    "discountValue": 25,
+    "maxDiscount": 350,
+    "minOrder": 999,
+    "description": "25% OFF on royal feast family orders above ₹999",
+    "expiresAt": "2026-12-31",
+    "isActive": true
+  }
+]

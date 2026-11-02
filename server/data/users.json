@@ -1,0 +1,44 @@
+[
+  {
+    "id": "usr-admin-1",
+    "name": "Royal Feast Administrator",
+    "email": "admin@royalfeast.com",
+    "password": "$2a$10$wKxH8u9Z7gYnN4.F3yR3xejL9T8R9/P6v4j4g1vKxH8u9Z7gYnN4.",
+    "role": "admin",
+    "phone": "+91 98765 43210",
+    "rewardPoints": 1500,
+    "addresses": [
+      {
+        "id": "addr-1",
+        "title": "Palace Office",
+        "address": "Royal Feast Citadel, 44 Heritage Boulevard, Indiranagar",
+        "landmark": "Near King's Circle",
+        "city": "Bengaluru",
+        "pincode": "560038"
+      }
+    ],
+    "favorites": ["chk-1", "mut-1", "chk-5"],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "usr-demo-1",
+    "name": "Yuvraj Vikram Rathore",
+    "email": "vikram@royalfeast.com",
+    "password": "$2a$10$wKxH8u9Z7gYnN4.F3yR3xejL9T8R9/P6v4j4g1vKxH8u9Z7gYnN4.",
+    "role": "customer",
+    "phone": "+91 98450 12345",
+    "rewardPoints": 350,
+    "addresses": [
+      {
+        "id": "addr-demo-1",
+        "title": "Royal Residency",
+        "address": "Villa 14, Royal Palm Meadows, Whitefield",
+        "landmark": "Opposite Prestige Grand Mall",
+        "city": "Bengaluru",
+        "pincode": "560066"
+      }
+    ],
+    "favorites": ["chk-1", "mut-2", "bread-1"],
+    "createdAt": "2026-02-15T00:00:00.000Z"
+  }
+]

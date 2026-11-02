@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rev-1",
+    "userName": "Vikramaditya Rathore",
+    "rating": 5,
+    "date": "2026-10-28",
+    "dish": "Chicken Biryani & Butter Naan",
+    "comment": "The aroma and the melt-in-the-mouth tenderness of the chicken was extraordinary! Reminds me of true royal Awadhi banquets. The packaging is pure luxury.",
+    "isVerified": true,
+    "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-2",
+    "userName": "Maharani Aishwarya Rao",
+    "rating": 5,
+    "date": "2026-10-25",
+    "dish": "Mutton Rogan Josh & Garlic Naan",
+    "comment": "Unbelievable depth of flavor in the Rogan Josh gravy. Paired with piping hot garlic naan, it is sheer perfection. Royal Feast truly lives up to its name!",
+    "isVerified": true,
+    "userAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-3",
+    "userName": "Col. Rajeshwardas Sharma",
+    "rating": 5,
+    "date": "2026-10-22",
+    "dish": "Tandoori Chicken & Parotta",
+    "comment": "Smoky char, juicy meat, perfectly spiced marinades. The combo builder is such an intuitive feature, let me customize my entire family dinner effortlessly.",
+    "isVerified": true,
+    "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-4",
+    "userName": "Dr. Ananya Sen",
+    "rating": 5,
+    "date": "2026-10-18",
+    "dish": "Egg Curry & Masala Egg Fry",
+    "comment": "Even the egg specials are elevated to five-star royal luxury! The gravy has authentic roasted spices and rich texture. Speedy delivery too.",
+    "isVerified": true,
+    "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80"
+  }
+]

@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --royal-maroon: #3B0718;
+  --royal-burgundy: #5B1028;
+  --royal-wine: #481021;
+  --royal-gold: #D4AF37;
+  --royal-champagne: #E8C875;
+  --royal-ivory: #FFF2E0;
+}
+
+body {
+  background-color: #23040E;
+  color: #FFF2E0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #26030F;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #D4AF37 0%, #7A5F12 100%);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E8C875;
+}
+
+/* Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF6D6 0%, #E8C875 35%, #D4AF37 70%, #9B7815 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Royal Gold Border */
+.border-gold {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+.border-gold-glow {
+  border-color: #D4AF37;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+}
+
+/* Gold Metallic Button */
+.btn-gold {
+  background: linear-gradient(135deg, #F5E2A9 0%, #D4AF37 40%, #BF9B27 75%, #947413 100%);
+  color: #26030F;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.35);
+  transition: all 0.3s ease;
+}
+.btn-gold:hover {
+  box-shadow: 0 6px 30px rgba(232, 200, 117, 0.6);
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+}
+.btn-gold:active {
+  transform: translateY(1px);
+}
+
+/* Maroon Outline Button with Gold Trim */
+.btn-royal-outline {
+  background: rgba(59, 7, 24, 0.6);
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  color: #FFF2E0;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+.btn-royal-outline:hover {
+  background: rgba(91, 16, 40, 0.85);
+  border-color: #E8C875;
+  color: #FFF5D0;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+/* Royal Glass Card */
+.royal-glass {
+  background: linear-gradient(145deg, rgba(72, 16, 33, 0.72) 0%, rgba(45, 6, 18, 0.88) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.22);
+  backdrop-filter: blur(12px);
+}
+.royal-glass-hover {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.royal-glass-hover:hover {
+  border-color: rgba(212, 175, 55, 0.65);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.7), 0 0 24px rgba(212, 175, 55, 0.25);
+}
+
+/* Silk Wave Background Keyframes */
+@keyframes silkWave1 {
+  0% { transform: scale(1) translate(0%, 0%) rotate(0deg); }
+  50% { transform: scale(1.1) translate(-2%, -3%) rotate(2deg); }
+  100% { transform: scale(1.05) translate(3%, 2%) rotate(-1deg); }
+}
+
+@keyframes silkWave2 {
+  0% { transform: scale(1.05) translate(0%, 0%) rotate(0deg); }
+  50% { transform: scale(1) translate(3%, 4%) rotate(-2deg); }
+  100% { transform: scale(1.12) translate(-3%, -2%) rotate(1.5deg); }
+}
+
+@keyframes goldStreak {
+  0% { opacity: 0.15; transform: translateY(-50%) rotate(-25deg); }
+  50% { opacity: 0.35; transform: translateY(0%) rotate(-20deg); }
+  100% { opacity: 0.15; transform: translateY(50%) rotate(-25deg); }
+}
+
+.animate-silk-1 {
+  animation: silkWave1 22s ease-in-out infinite alternate;
+}
+.animate-silk-2 {
+  animation: silkWave2 28s ease-in-out infinite alternate;
+}
+.animate-streak {
+  animation: goldStreak 18s ease-in-out infinite alternate;
+}
+
+/* Royal Damask / Mandala Motif SVG overlay */
+.bg-royal-pattern {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
